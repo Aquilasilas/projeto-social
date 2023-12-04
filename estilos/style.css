@@ -9,6 +9,7 @@
 html, body {
     height:100vh;
     width: 100vw;
+    overflow: hidden;
    
 
 }
@@ -18,15 +19,13 @@ body{
     background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
-    overflow: hidden;   
+   
 }
 
 main{
     position: relative;
     height: 100vh;
-   
-   
-   
+    
 }
 
 section#telefone{
@@ -70,7 +69,5 @@ section#redes-sociais img:hover{
     transform: translate(-3px, 3px);
     box-shadow: 5px 5px 10px rgb(238, 7, 7);
     transition: transform 0.5s, border 0,5s ;
-   
-    
-
+  
 }
